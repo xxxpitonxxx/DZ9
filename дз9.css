@@ -1,0 +1,148 @@
+.grid_parent{
+    border: 7px solid black;
+    border-radius: 5px;
+    height: 600px;
+    width: 1400px;
+    margin: 50px;
+    background-image: url("https://cameralabs.org/media/lab16/post/06-16/06/natyurmorty-foto_10.jpg");
+    transition: 2000ms;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.grid_parent:hover{
+    background-image: url("https://sun9-87.userapi.com/impg/xJ6e7KhirfzGjOZwgr4ShrSjLUKynHrtQr5q2A/hfhUGYpZLm0.jpg?size=604x412&quality=96&sign=e29bc06c6c8640d50b139083488f5776&type=album");
+    transition: 2000ms;
+}
+
+
+.position1{
+    height: 300px;
+    width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    grid-gap: 34px;
+    justify-content: space;
+}
+
+.position2{
+    display: grid;
+    grid-template-columns: repeat(3, 598px);
+    margin-top: 30px;
+}
+.block1{
+    border: 3px solid rgb(147, 153, 151);
+    border-radius: 3px;
+    height: 200px;
+    width: 200px;
+    background:
+    linear-gradient(217deg, rgba(183, 190, 119, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(150, 172, 182, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(120, 99, 129, 0.8), rgba(0,0,255,0) 70.71%);
+    z-index: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: repeat(3, 60px);
+    grid-gap: 5px;
+    grid-template-areas: 
+    "area1 area1 area1"
+    "area2 area3 area6"
+    "area4 area5 area6";
+}
+
+.item{
+    border: 1px solid rgb(13, 151, 237);
+    height: 60px;
+    width: 60px;
+}
+
+.area1{
+    grid-area: area1;
+    background-color: blueviolet;
+}
+.area2{
+    grid-area: area2;
+    background-color: rgb(190, 98, 41);
+}
+.area3{
+    grid-area: area3;
+    background-color: rgb(15, 52, 234);
+}
+.area4{
+    grid-area: area4;
+    background-color: rgb(219, 225, 19);
+}
+.area5{
+    grid-area: area5;
+    background-color: rgb(237, 11, 41);
+}
+.area6{
+    grid-area: area6;
+    background-color: rgb(80, 199, 11);
+}
+
+.block2{
+    border: 3px solid rgb(147, 153, 151);
+    border-radius: 3px;
+    height: 200px;
+    width: 200px;
+    background:
+    linear-gradient(217deg, rgba(183, 190, 119, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(150, 172, 182, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(120, 99, 129, 0.8), rgba(0,0,255,0) 70.71%);
+    z-index: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: repeat(3, 60px);
+    grid-gap: 5px;
+    grid-template-areas: 
+    "area1 area1 area1"
+    "area2 area2 area2"
+    "area3 area3 area3";
+}
+
+.block3{
+    border: 3px solid rgb(147, 153, 151);
+    border-radius: 3px;
+    height: 200px;
+    width: 200px;
+    background:
+    linear-gradient(217deg, rgba(183, 190, 119, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(150, 172, 182, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(120, 99, 129, 0.8), rgba(0,0,255,0) 70.71%);
+    z-index: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: repeat(3, 60px);
+    grid-gap: 5px;
+    grid-template-areas: 
+    "area3 area1 area1"
+    "area3 area2 area2"
+    "area4 area5 area6";
+}
+
+.block4{
+    border: 3px solid rgb(147, 153, 151);
+    border-radius: 3px;
+    height: 200px;
+    width: 200px;
+    background:
+    linear-gradient(217deg, rgba(183, 190, 119, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(150, 172, 182, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(120, 99, 129, 0.8), rgba(0,0,255,0) 70.71%);
+    z-index: 2;
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr 1fr);
+    grid-template-rows: repeat(1fr 1fr 1fr);
+    grid-gap: 5px;
+    grid-template-areas: 
+    "area4 area5 area6"
+    "area4 area5 area6"
+    "area4 area5 area6";
+}
+
+
+
+
+
+
